@@ -1,0 +1,41 @@
+###
+GET http://localhost:8080/contacts
+
+###
+POST http://localhost:8080/contacts 
+Content-Type: application/json
+
+    {
+    "firstName": "John",
+    "lastName": "Fan",
+    "email": "johnfan123@gmail.com",
+    "favoriteColor": "dark blue",
+    "birthday": "2004-09-01"
+    }
+
+###
+PUT http://localhost:8080/contacts/645d06f63b3a44a791d5cec0
+Content-Type: application/json
+
+    {
+    "firstName": "John",
+    "lastName": "Fan",
+    "email": "johnfan123@gmail.com",
+    "favoriteColor": "dark green",
+    "birthday": "2004-09-01"
+    }
+
+###
+DELETE http://localhost:8080/contacts/645ad2ab3b3a44a791d5cebf
+
+###
+GET http://localhost:8080/contacts/644c51ca34b8af3305d14524
+
+###
+GET http://localhost:8080/contacts/644c51e834b8af3305d14525
+
+###
+GET http://localhost:8080/contacts/644c520334b8af3305d14526
+
+###
+GET https://https://cse341huang-week5.onrender.com/contacts
