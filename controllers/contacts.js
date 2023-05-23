@@ -35,7 +35,7 @@ const getSingle = async (req, res, next) => {
 }
 
 const createContact = async (req, res, next) => {
-  if (!req.body) {
+  if (!req.body.Name) {
     res.status(400).send({ message: 'Data to update can not be empty!' });
   }
   try{
@@ -64,7 +64,7 @@ const createContact = async (req, res, next) => {
 
 
 const updateContact = async (req, res) => {
-  if (!req.body) {
+  if (!req.body.Name) {
     res.status(400).send({ message: 'Data to update can not be empty!' });
   }
   try{
