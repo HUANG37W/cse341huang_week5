@@ -1,23 +1,35 @@
 {
-  "contact": {
-    "firstName": "Ella",
-    "lastName": "Yang",
-    "email": "ellayang@test.com",
-    "favoriteColor": "Green",
-    "birthday": "12/12/20"
+  "car": {
+      "Name":"audi 100 ls",
+      "Miles_per_Gallon":24,
+      "Cylinders":4,
+      "Displacement":107,
+      "Horsepower":90,
+      "Weight_in_lbs":2430,
+      "Acceleration":14.5,
+      "Year":"1970-01-01",
+      "Origin":"Europe"
   },
-  "contact2": {
-    "firstName": "Jimmy",
-    "lastName": "Han",
-    "email": "jimmyhan@test.com",
-    "favoriteColor": "Purple",
-    "birthday": "07/12/10"
+  "car1": {
+      "Name":"toyota corona",
+      "Miles_per_Gallon":25,
+      "Cylinders":4,
+      "Displacement":113,
+      "Horsepower":95,
+      "Weight_in_lbs":2228,
+      "Acceleration":14,
+      "Year":"1971-01-01",
+      "Origin":"Japan"
   },
-  "contact3": {
-    "firstName": "Leo",
-    "lastName": "Lee",
-    "email": "leolee@test.com",
-    "favoriteColor": "Yellow",
-    "birthday": "02/22/95"
+  "car2": {
+    "Name":"ford torino 500",
+    "Miles_per_Gallon":19,
+    "Cylinders":6,
+    "Displacement":250,
+    "Horsepower":88,
+    "Weight_in_lbs":3302,
+    "Acceleration":15.5,
+    "Year":"1971-01-01",
+    "Origin":"USA"
   }
 }

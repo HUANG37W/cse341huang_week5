@@ -6,11 +6,15 @@ POST http://localhost:8080/contacts
 Content-Type: application/json
 
     {
-    "firstName": "John",
-    "lastName": "Fan",
-    "email": "johnfan123@gmail.com",
-    "favoriteColor": "dark blue",
-    "birthday": "2004-09-01"
+      "Name":"peugeot 304",
+      "Miles_per_Gallon":30,
+      "Cylinders":4,
+      "Displacement":79,
+      "Horsepower":70,
+      "Weight_in_lbs":2074,
+      "Acceleration":19.5,
+      "Year":"1971-01-01",
+      "Origin":"Europe"
     }
 
 ###
@@ -18,11 +22,15 @@ PUT http://localhost:8080/contacts/6464392f159df363b8a6a258
 Content-Type: application/json
 
     {
-    "firstName": "John",
-    "lastName": "Fan",
-    "email": "johnfan123@gmail.com",
-    "favoriteColor": "dark green",
-    "birthday": "2004-09-01"
+      "Name":"volkswagen model 111",
+      "Miles_per_Gallon":27,
+      "Cylinders":4,
+      "Displacement":97,
+      "Horsepower":60,
+      "Weight_in_lbs":1834,
+      "Acceleration":19,
+      "Year":"1971-01-01",
+      "Origin":"Europe"
     }
 
 ###
