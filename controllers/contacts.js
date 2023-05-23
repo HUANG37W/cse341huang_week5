@@ -35,6 +35,9 @@ const getSingle = async (req, res, next) => {
 }
 
 const createContact = async (req, res, next) => {
+  if (!req.body) {
+    res.status(400).send({ message: 'Data to update can not be empty!' });
+  }
   try{
   const contact = {
     Name: req.body.Name,
@@ -61,6 +64,9 @@ const createContact = async (req, res, next) => {
 
 
 const updateContact = async (req, res) => {
+  if (!req.body) {
+    res.status(400).send({ message: 'Data to update can not be empty!' });
+  }
   try{
   const userId = new ObjectId(req.params.id);
   // be aware of updateOne if you only want to update specific fields
