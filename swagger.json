@@ -5,13 +5,24 @@
     "description": "Description",
     "version": "1.0.0"
   },
-  "host": "cse341huang-week5.onrender.com",
+  "host": "localhost:8080",
   "basePath": "/",
   "schemes": [
     "http",
     "https"
   ],
   "paths": {
+    "/": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/contacts/": {
       "get": {
         "description": "",
